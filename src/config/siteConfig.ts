@@ -9,7 +9,7 @@ export const siteConfig = {
   logoPath: '/assets/sg-beauty-logo.svg',
   heroVideoMp4: '/assets/sg-beauty-hero.mp4',
   heroVideoWebm: '/assets/sg-beauty-hero.webm',
-  heroPoster: '/assets/sg-beauty-hero-poster.webp',
+  heroPoster: '/assets/sg-beauty-hero-poster.png',
   socialPreview: '/assets/sg-beauty-social-preview.webp',
   navItems: [
     { label: 'Home', href: '#home' },
