@@ -11,13 +11,14 @@ export function HeroVideo() {
   }, []);
 
   return (
-    <div className="absolute inset-0 z-0 bg-ink" aria-hidden="true">
+    <div className="pointer-events-none absolute inset-0 z-0 bg-ink" aria-hidden="true">
       <img
         src={siteConfig.heroPoster}
         alt=""
         className="absolute inset-0 z-0 h-full w-full object-cover object-center"
         fetchPriority="high"
       />
+
       {!videoFailed && (
         <video
           ref={videoRef}
@@ -40,7 +41,8 @@ export function HeroVideo() {
           <source src={siteConfig.heroVideoMp4} type="video/mp4" />
         </video>
       )}
-      <div className="absolute inset-0 z-[2] bg-[radial-gradient(circle_at_62%_42%,rgba(250,248,245,.06)_0,rgba(17,17,17,.1)_30%,rgba(17,17,17,.5)_100%),linear-gradient(90deg,rgba(17,17,17,.74),rgba(17,17,17,.28)_48%,rgba(17,17,17,.56)),linear-gradient(180deg,rgba(17,17,17,.62),rgba(17,17,17,.18)_34%,rgba(17,17,17,.48))]" />
+
+      <div className="absolute inset-0 z-[2] bg-[radial-gradient(circle_at_68%_45%,transparent_0,rgba(17,17,17,.12)_32%,rgba(17,17,17,.58)_100%),linear-gradient(90deg,rgba(17,17,17,.72),rgba(17,17,17,.12)_52%,rgba(17,17,17,.48)),linear-gradient(180deg,rgba(17,17,17,.55),transparent_34%,rgba(17,17,17,.38))]" />
     </div>
   );
 }

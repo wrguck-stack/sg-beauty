@@ -14,8 +14,7 @@
     "postcss": "latest",
     "autoprefixer": "latest",
     "framer-motion": "latest",
-    "lucide-react": "latest",
-    "@fontsource/pinyon-script": "latest"
+    "lucide-react": "latest"
   },
   "devDependencies": {
     "@types/react": "latest",
