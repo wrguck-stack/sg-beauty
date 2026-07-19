@@ -1,0 +1,2 @@
+import { siteConfig } from '../config/siteConfig';
+export function Footer(){return <footer className="mt-16 border-t border-ink/10 py-6 text-xs uppercase tracking-[.2em] text-ink/55"><div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between"><p>{siteConfig.brandName} © {new Date().getFullYear()}</p><nav className="flex flex-wrap gap-5"><a href="#">Impressum</a><a href="#">Datenschutz</a><a href={siteConfig.instagramUrl}>Instagram</a></nav></div></footer>}
